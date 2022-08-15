@@ -1,0 +1,293 @@
+/*orign*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0,0,0);
+  --red: rgb(234,64,64);
+  --green: rgb(0, 255, 64);
+  --yellow: ;
+  --blue: ;
+  --ColorForTheme: var(--red);
+  --BorderRadius: 10px;
+}
+body {
+  background: linear-gradient(150deg, #333, #111);
+  background-image: linear-gradient(150deg, rgb(51, 51, 51), rgb(17, 17, 17));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  display: grid;
+  grid-template-columns: 25% 29.3% 35% 10%;
+  grid-template-rows: 57% 43%;
+  font-family: 'Righteous', cursive;
+}
+h2 {
+  margin: 5px;
+  width: fit-content;
+  color: var(--ColorForTheme);
+}
+summary,
+p {
+  color: var(--ColorForTheme);
+}
+a {
+  text-decoration: none;
+  color: var(--ColorForTheme);
+}
+details {
+  margin: 5px;
+}
+.ClockDiv,
+.SearchInput,
+.Calendar,
+.calculator {
+  box-shadow: -4px -4px 4px rgb(255 255 255 / 8%), 4px 4px 4px rgb(0 0 0 / 56%), 0 0 0 rgb(255 255 255 / 8%) inset, 0 0 0 rgb(0 0 0 / 56%) inset;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top-color: rgba(0, 0, 0, 0.08);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.08);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgba(0, 0, 0, 0.08);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+.DateContent,
+.Search,
+.WebSiteDiv {
+  box-shadow: 2px 2px 2px rgb(255 255 255 / 8%), -2px -2px 2px rgb(0 0 0 / 56%), 2px 2px 2px rgb(255 255 255 / 8%) inset, -2px -2px 2px rgb(0 0 0 / 56%) inset;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top-color: rgba(0, 0, 0, 0.08);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.08);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgba(0, 0, 0, 0.08);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+/*orign*/
+/*web site list*/
+.WebSiteList {
+  box-shadow: 0 0 0 rgb(255 255 255 / 8%), 0 0 0 rgb(0 0 0 / 56%), -4px -4px 4px rgb(255 255 255 / 8%) inset, 4px 4px 4px rgb(0 0 0 / 56%) inset;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top-color: rgba(0, 0, 0, 0.08);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.08);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgba(0, 0, 0, 0.08);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  grid-column: 4/5;
+  grid-row: 1/3;
+  border-radius: var(--BorderRadius);
+  height: 6000px;
+  max-height: 10000px;
+}
+.WebSiteDiv {
+  border-radius: 13px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 175px;
+  height: 38px;
+}
+.ImgOfWebSite {
+  margin-top: 5px;
+  margin-left: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.WebSiteP {
+  width: 135px;
+  height: 33px;
+  float: right;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 13px;
+}
+/*web site list*/
+/*Claendar Part*/
+.Calendar {
+    width: 470px;
+    height: 410px;
+    margin: 3px;
+    float: left;
+    border-radius: 10px;
+}
+.line {
+  background-color: var(--ColorForTheme);
+  height: 5px;
+  width: 100%;
+}
+.ChangeMode {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ChangeMode:hover {
+    color: aquamarine;
+}
+.Week {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.WeekContent {
+    color: var(--ColorForTheme);
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    width: 14.28571429%;
+    margin: 0.5%;
+}
+.Date {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 78%;
+    margin-left: 1%;
+}
+.DateContentDiv {
+    width: 14.28571429%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.DateContent {
+    color: var(--ColorForTheme);
+    border-radius: var(--BorderRadius);
+    width: 75%;
+    height: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DateContent:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.08s;
+}
+/*Claendar Part*/
+/*Search Inputs*/
+.SearchInput {
+    width: 550px;
+    height: 410px;
+    margin: 3px;
+    float: right;
+    border-radius: var(--BorderRadius);
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+}
+.Search {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    padding-left: 50px;
+}
+.SearchDiv {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-bottom: 3px;
+}
+/*Search Inputs*/
+/*Clock Div Part*/
+.ClockDiv {
+    width: 250px;
+    height: 305px;
+    margin: 3px;
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+/*Clock Div Part*/
+/*calculator Part*/
+.calculator {
+    width: 656px;
+    height: 410px;
+    border-radius: var(--BorderRadius);
+    margin: 3px;
+    grid-column: 3/4;
+}
+/*calculator Part*/
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: fit-content;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: linear-gradient(150deg, #333, #111);
+  background-image: linear-gradient(150deg, rgb(51, 51, 51), rgb(17, 17, 17));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #1a00ff;
+  background-image: linear-gradient(180deg, #1a00ff 10%, #FA8BFF 29%, #2BD2FF 48%, #ff0000 59%, #2BFF88 86%, #6a00ff 100%);
+}
+/*scrollbar*/
+/*Respansave*/
+@media (max-width: 960px) {
+}
+@media (max-height: 435px) {
+}
+/*Respansave*/

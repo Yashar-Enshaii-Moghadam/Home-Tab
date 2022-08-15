@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--for font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!--for icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0"
+    />
+    <!--for Animation aos-->
+    <!--
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./HomeTab.css" />
+    <script src="./HomeTab.js"></script>
+  </head>
+  <body>
+    <div class="Calendar" data-aos="zoom-in">
+      <h2>Calendar</h2>
+      <section class="line"></section>
+      <div class="Week">
+        <span title="Monday" class="WeekContent">Mon</span>
+        <span title="Tuesday" class="WeekContent">Tue</span>
+        <span title="Wednesday" class="WeekContent">Wed</span>
+        <span title="Thursday" class="WeekContent">Thu</span>
+        <span title="Friday" class="WeekContent">Fri</span>
+        <span title="Saturday" class="WeekContent">Sat</span>
+        <span title="Sunday" class="WeekContent">Sun</span>
+      </div>
+      <div class="Date">
+        <span class="DateContentDiv"><p class="DateContent">1</p></span>
+        <span class="DateContentDiv"><p class="DateContent">2</p></span>
+        <span class="DateContentDiv"><p class="DateContent">3</p></span>
+        <span class="DateContentDiv"><p class="DateContent">4</p></span>
+        <span class="DateContentDiv"><p class="DateContent">5</p></span>
+        <span class="DateContentDiv"><p class="DateContent">6</p></span>
+        <span class="DateContentDiv"><p class="DateContent">7</p></span>
+        <span class="DateContentDiv"><p class="DateContent">8</p></span>
+        <span class="DateContentDiv"><p class="DateContent">9</p></span>
+        <span class="DateContentDiv"><p class="DateContent">10</p></span>
+        <span class="DateContentDiv"><p class="DateContent">11</p></span>
+        <span class="DateContentDiv"><p class="DateContent">12</p></span>
+        <span class="DateContentDiv"><p class="DateContent">13</p></span>
+        <span class="DateContentDiv"><p class="DateContent">14</p></span>
+        <span class="DateContentDiv"><p class="DateContent">15</p></span>
+        <span class="DateContentDiv"><p class="DateContent">16</p></span>
+        <span class="DateContentDiv"><p class="DateContent">17</p></span>
+        <span class="DateContentDiv"><p class="DateContent">18</p></span>
+        <span class="DateContentDiv"><p class="DateContent">19</p></span>
+        <span class="DateContentDiv"><p class="DateContent">20</p></span>
+        <span class="DateContentDiv"><p class="DateContent">21</p></span>
+        <span class="DateContentDiv"><p class="DateContent">22</p></span>
+        <span class="DateContentDiv"><p class="DateContent">23</p></span>
+        <span class="DateContentDiv"><p class="DateContent">24</p></span>
+        <span class="DateContentDiv"><p class="DateContent">25</p></span>
+        <span class="DateContentDiv"><p class="DateContent">26</p></span>
+        <span class="DateContentDiv"><p class="DateContent">27</p></span>
+        <span class="DateContentDiv"><p class="DateContent">28</p></span>
+        <span class="DateContentDiv"><p class="DateContent">29</p></span>
+        <span class="DateContentDiv"><p class="DateContent">30</p></span>
+        <span class="DateContentDiv"><p class="DateContent">31</p></span>
+      </div>
+    </div>
+    <div class="SearchInput" data-aos="zoom-in">
+      <h2>Search Input</h2>
+      <div class="SearchDiv">
+        <input
+          title="Search Engine"
+          class="Search"
+          placeholder="Search Google or type a URL"
+        />
+      </div>
+      <div class="SearchDiv">
+        <input
+          title="Search Engine"
+          class="Search"
+          placeholder="Search Bing or type a URL"
+        />
+      </div>
+      <div class="SearchDiv">
+        <input
+          title="Search Engine"
+          class="Search"
+          placeholder="Search Yahoo or type a URL"
+        />
+      </div>
+      <div class="SearchDiv">
+        <input
+          title="Search Engine"
+          class="Search"
+          placeholder="Search DuckDuckGo or type a URL"
+        />
+      </div>
+      <div class="SearchDiv">
+        <input
+          title="Search Engine"
+          class="Search"
+          placeholder="Search Ecosia or type a URL"
+        />
+      </div>
+      <div class="SearchDiv">
+        <input class="Search" placeholder="Search Instagram or type a URL" />
+      </div>
+      <div class="SearchDiv">
+        <input class="Search" placeholder="Search YouTube or type a URL" />
+      </div>
+      <div class="SearchDiv">
+        <input class="Search" placeholder="Search Aparat or type a URL" />
+      </div>
+    </div>
+    <div class="calculator" data-aos="zoom-in">
+      <div class="Answer"></div>
+      <div class="Numbers"></div>
+    </div>
+    <div class="ClockDiv" data-aos="zoom-in">
+      <h2>Clock</h2>
+    </div>
+    <div class="WebSiteList" data-aos="fade-left">
+      <h2>Web Site List</h2>
+      <!--google-->
+      <details>
+        <summary>Google</summary>
+        <a target="_blank" href="https://www.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Google</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://mail.google.com/mail/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Gmail</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://translate.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Translate</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Translate_logo.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://fonts.google.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">fonts google</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">YouTube</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://drive.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Drive Google</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://maps.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Maps</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://meet.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Meet</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-512dp/logo_meet_2020q4_color_1x_web_512dp.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://contacts.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Contacts</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/9/93/Google_Contacts_icon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://calendar.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">Calendar</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://calendar.google.com/googlecalendar/images/favicons_2020q4/calendar_31_256.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://earth.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">earth</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Google_Earth_icon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://docs.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">docs</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://classroom.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">classroom</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://news.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">news</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_News_icon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://ads.google.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">ads</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Ads_logo.svg"
+            />
+          </div>
+        </a>
+      </details>
+      <!--microsoft-->
+      <details>
+        <summary>Microsoft</summary>
+        <a target="_blank" href="https://www.microsoft.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">microsoft</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.microsoft.com/favicon.ico?v2"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://github.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">github</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://github.com/fluidicon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://onedrive.live.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">onedrive</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://p.sfx.ms/images/favicon.ico"
+            />
+          </div>
+        </a>
+      </details>
+      <!--Learn Lesson-->
+      <details>
+        <summary>Learn Lessons</summary>
+        <a target="_blank" href="https://home.mehromah.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">mehromah</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://home.mehromah.ir/templates/mehromah2/images/touch-icon-ipad-retina.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.lernito.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">lernito</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.lernito.com/_next/static/media/logo-high.e44771e0fbf099340fbe55e4dc954a64.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.kanoon.ir">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">kanoon</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://kanoon2.ir/Images/apple-touch-icon.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://hamgamdars.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">hamgamdars</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://hamgamdars.com/wp-content/uploads/2020/08/origami-2.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://gama.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">gama</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://gama.ir/assets/image/favicon.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.monta.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">monta</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.monta.ir/client_resources/images/apple-touch-icon-167px.png" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+      </details>
+      <!--Learn programm & ...-->
+      <details>
+        <summary>Learn Programm & ...</summary>
+        <a target="_blank" href="https://www.w3schools.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">w3schools</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.w3schools.com/favicon.ico" />
+          </div>
+        </a>
+        <a target="_blank" href="https://stackoverflow.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">stackoverflow</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" />
+          </div>
+        </a>
+        <a target="_blank" href="https://fronthooks.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">fronthooks</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://fronthooks.ir/images/fh-logo.svg" />
+          </div>
+        </a>
+        <a target="_blank" href="https://free-learn.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">free learn</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://free-learn.ir/wp-content/uploads/2018/05/Logo-Header-2.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.hamyarit.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">hamyarit</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.hamyarit.com/wp-content/uploads/2020/03/cropped-Hamyarit-Logo-Icon.png-hamyarit.com-Hamyarit-Logo-Icon.png-hamyarit.com-cropped-Hamyarit-Logo-Icon.png-hamyarit.com-Hamyarit-Logo-Icon.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.botostart.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">botostart</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.botostart.ir/wp-content/uploads/2021/03/Component-93.svg" />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.sourcebaran.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">sourcebaran</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://www.sourcebaran.com/wp-content/themes/sb-wp/images/favicon.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://blacksecurityteam.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">blacksecurityteam</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://blacksecurityteam.com/wp-content/uploads/2020/10/lglg23.png" />
+          </div>
+        </a>
+        <a target="_blank" href="https://tosinso.com/fa">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">tosinso</p>
+            <img class="ImgOfWebSite" loading="lazy" src="https://resources.tosinso.com/android-icon-192x192.png" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+      </details>
+      <!---Tool Programm & ...-->
+      <details>
+        <summary>Tool Programm & ...</summary>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP"></p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+      </details>
+      <!---Store-->
+      <details>
+        <summary>Store</summary>
+        <a target="_blank" href="https://www.amazon.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">amazon</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.digikala.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">digikala</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.digikala.com/android-icon-192x192.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.lioncomputer.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">lioncomputer</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.lioncomputer.com/uploads/image/2022/1/optimized/1641819560-amivXxmkmMBGxohU.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://divar.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">divar</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjM4NTUzIDE0LjYxNzNIOC4yODA0M0M3Ljg5NTA2IDE0LjU2NDcgNy42MzIzMiAxNC4xOTY5IDcuNjg0ODcgMTMuODExNUM4LjE1NzgxIDEwLjY5MzYgOC4zMTU0NiA1LjcxODg3IDguMzE1NDYgNS42ODM4NEM4LjM1MDQ5IDUuMjk4NDggOC42NDgyNyA0Ljk4MzE4IDkuMDUxMTUgNS4wMDA3QzkuNDM2NTIgNS4wMTgyMSA5LjczNDMgNS4zMzM1MSA5LjczNDMgNS43MTg4N0M5LjczNDMgNS45MjkwNyA5LjU1OTEzIDEwLjgxNjIgOS4wODYxOSAxNC4wMjE3QzkuMDMzNjQgMTQuMzcyIDguNzM1ODYgMTQuNjE3MyA4LjM4NTUzIDE0LjYxNzNaTTE4LjQyMjUgMTUuOTEzNUMxOC4xMjQ3IDE1LjkxMzUgMTcuODQ0NCAxNS43MjA4IDE3Ljc1NjkgMTUuNDIzQzE3LjYzNDIgMTUuMDU1MiAxNy44NDQ0IDE0LjY1MjMgMTguMjEyMyAxNC41NDcyQzIxLjUyMjkgMTMuNDk2MiAyMS41NzU0IDEyLjY5MDQgMjEuNTkzIDEyLjI1MjVDMjEuNjI4IDExLjU2OTQgMjEuMTAyNSAxMC42OTM2IDIwLjg5MjMgMTAuMzk1OEMyMC42NjQ2IDEwLjA4MDUgMjAuNzM0NyA5LjY0MjU3IDIxLjA1IDkuNDE0ODVDMjEuMzY1MiA5LjE4NzE0IDIxLjgwMzIgOS4yNTcyIDIyLjAzMDkgOS41NzI1QzIyLjEzNiA5LjcxMjYzIDIzLjA4MTkgMTEuMDI2NCAyMi45OTQzIDEyLjM0MDFDMjIuOTA2NyAxMy45MzQxIDIxLjY4MDUgMTQuOTE1IDE4LjYzMjcgMTUuODk2QzE4LjU5NzYgMTUuODk2IDE4LjU2MjYgMTUuOTAwMyAxOC41Mjc2IDE1LjkwNDdDMTguNDkyNSAxNS45MDkxIDE4LjQ1NzUgMTUuOTEzNSAxOC40MjI1IDE1LjkxMzVaTTguOTExMDIgMTguMzgzM0M4LjcwMDgyIDE4LjM4MzMgOC40OTA2MyAxOC4yOTU3IDguMzY4MDEgMTguMTIwNkM4LjEyMjc4IDE3LjgyMjggOC4xNzUzMyAxNy4zNjczIDguNDkwNjMgMTcuMTM5NkM5LjkyNjk4IDE2LjAwMTEgMTAuODkwNCAxNC45ODUxIDExLjUyMSAxNC4wOTE4QzExLjE3MDYgMTMuOTE2NiAxMC44MDI4IDEzLjY1MzggMTAuNjEwMSAxMy4yMTU5QzEwLjQzNSAxMi44MTMxIDEwLjMyOTkgMTIuMTQ3NCAxMC45NDI5IDExLjI1NDFDMTEuODE4OCA5Ljk1Nzg2IDEyLjY5NDYgOS42NjAwOCAxMy4wMjc0IDkuNTkwMDJDMTMuNDgyOCA5LjUwMjQ0IDEzLjkyMDcgOS43NjUxOCAxNC4wNDM0IDEwLjIwMzFDMTQuMTMwOSAxMC41MTg0IDE0LjM0MTEgMTEuNTE2OCAxMy43MTA1IDEzLjA0MDhDMTQuNTUxMyAxMy4wMjMzIDE1LjIxNyAxMi43OTU1IDE1LjcyNDkgMTIuMzc1MUMxNi43MDU5IDExLjU4NjkgMTYuNzU4NCAxMC4yNTU2IDE2Ljc1ODQgMTAuMjM4MUMxNi43NzU5IDkuODUyNzcgMTcuMDkxMiA5LjU1NDk4IDE3LjQ3NjYgOS41NTQ5OEMxNy44NjE5IDkuNTcyNSAxOC4xNTk3IDkuODg3OCAxOC4xNTk3IDEwLjI3MzJDMTguMTU5NyAxMC4zNDMyIDE4LjA4OTcgMTIuMjE3NSAxNi42MzU4IDEzLjQ0MzZDMTUuNzI0OSAxNC4yMTQ0IDE0LjQ4MTMgMTQuNTQ3MiAxMi45NzQ4IDE0LjQyNDZDMTIuMjU2NyAxNS41MjgxIDExLjExODEgMTYuODI0MyA5LjM0ODkzIDE4LjIyNTZDOS4yMDg4IDE4LjMzMDcgOS4wNjg2NyAxOC4zODMzIDguOTExMDIgMTguMzgzM1pNMTIuNzEyMSAxMS4zMDY2QzEyLjUxOTQgMTEuNDY0MyAxMi4zMDkyIDExLjY5MiAxMi4wODE1IDEyLjA0MjNDMTEuODUzOCAxMi4zOTI3IDExLjgzNjMgMTIuNTg1MyAxMS44NTM4IDEyLjYzNzlDMTEuODg4OCAxMi43MjU1IDEyLjA2NCAxMi44MTMxIDEyLjIzOTIgMTIuODgzMUMxMi41NzIgMTIuMjE3NSAxMi42NzcxIDExLjY5MiAxMi43MTIxIDExLjMwNjZaTTEyLjg4NzMgMTYuMjI4OEMxMi45MDQ4IDE2LjYxNDEgMTMuMjIwMSAxNi45MTE5IDEzLjU4NzkgMTYuOTExOUgxMy42MjNDMTMuNjc1NSAxNi45MTE5IDE0Ljg0OTEgMTYuODc2OSAxNi41MzA3IDE2LjQ5MTVDMTYuOTE2MSAxNi40MDM5IDE3LjE2MTMgMTYuMDM2MSAxNy4wNzM3IDE1LjY1MDdDMTYuOTg2MSAxNS4yNjU0IDE2LjYxODMgMTUuMDIwMSAxNi4yMzI5IDE1LjEwNzdDMTQuNjczOSAxNS40NDA1IDEzLjU3MDQgMTUuNDkzMSAxMy41NTI5IDE1LjQ5MzFDMTMuMTY3NSAxNS41MTA2IDEyLjg2OTcgMTUuODQzNCAxMi44ODczIDE2LjIyODhaTTEuMTMzNyAxOC4xMDNDMS4yNTYzMSAxOC4yNzgyIDEuNDg0MDMgMTguMzgzMyAxLjY5NDIzIDE4LjM4MzNDMS44MzQzNiAxOC4zODMzIDEuOTc0NDkgMTguMzQ4MyAyLjExNDYyIDE4LjI2MDdDNi41NjM4MSAxNS4wMjAxIDYuNzM4OTggMTAuNzgxMSA2LjczODk4IDEwLjYwNkM2LjczODk4IDEwLjIyMDYgNi40NDEyIDkuOTA1MzEgNi4wNTU4MyA5Ljg4NzhDNS42NzA0NyA5Ljg3MDI4IDUuMzU1MTcgMTAuMTg1NiA1LjMzNzY2IDEwLjU3MDlDNS4zMzc2NiAxMC43MTExIDUuMTYyNDkgMTQuMzAyIDEuMjkxMzUgMTcuMTIyMUMwLjk3NjA0OSAxNy4zNDk4IDAuOTA1OTgzIDE3Ljc4NzcgMS4xMzM3IDE4LjEwM1oiIGZpbGw9IiNBNjI2MjYiLz4KPC9zdmc+Cg=="
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://emalls.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">emalls</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://emalls.ir/src/icon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://torob.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">torob</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://torob.com/static/images/torob_logo.svg"
+            />
+          </div>
+        </a>
+      </details>
+      <!--Download & Upload-->
+      <details>
+        <summary>Download & Upload</summary>
+        <a target="_blank" href="https://soft98.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">soft98</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://soft98.ir/templates/soft98_default/images/touch-icon-ipad-retina.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.yasdl.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">yasdl</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.yasdl.com/wp-content/uploads/2016/07/logo-YasDL.jpg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.uptvs.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">uptv</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.uptvs.com/wp-contents/uploads/2022/05/Icon-UpTV-Black.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.doostihaa.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">doostihaa</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.doostihaa.com/img/uploads/2017/05/Logo.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.playmusic.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">playmusic</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.playmusic.ir/theme/images/logo.png"
+            />
+          </div>
+        </a>
+      </details>
+      <!--Other-->
+      <details>
+        <summary>Other</summary>
+        <a target="_blank" href="https://web.shad.ir">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">shad</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://web.shad.ir/assets/img/iphone_home120.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://web.whatsapp.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">whatsapp</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://web.whatsapp.com/apple-touch-icon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.imdb.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">imdb</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_iPhone_retina_180x180._CB1582158069_.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.aparat.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">aparat</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.aparat.com/static/favicon.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.instagram.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">instagram</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.iranserver.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">iranserver</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.iranserver.com/public/assets/images/favicon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.netafraz.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">netafraz</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.netafraz.com/favicon.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://cybermap.kaspersky.com">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">cybermap</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://cybermap.kaspersky.com/images/Kaspersky_Web_Favicon_256x256.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://leakfa.com/search">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">جستجوی نشت</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://leakfa.com/images/logo.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://blackarch.org/index.html">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">blackarch</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://blackarch.org/images/logo/ba-logo.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://badesaba.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">badesaba</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://badesaba.ir/assets/img/logo_blue.svg"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://i.mi.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">i.mi</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://land.xiaomi.net/res/2a84e145/other/favicon.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://uploadboy.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">uploadboy</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://uploadboy.com/template/favicon.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://spotplayer.ir/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">spotplayer</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://spotplayer.ir/assets/img/icon/favicon.svg?50485be1f84cbafb564a82e6e1938b4f"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.scamadviser.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">scamadviser</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://www.scamadviser.com/images/static/favicon/apple-touch-icon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://mylivewallpapers.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">mylivewallpapers</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://mylivewallpapers.com/wp-content/uploads/fbrfg/apple-touch-icon.png?v=NmaK3RwxoE"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://givefastlink.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">givefastlink</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://givefastlink.com/wp-content/uploads/2021/10/favicon.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://haveibeenpwned.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">haveibeenpwned</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://haveibeenpwned.com/favicon.ico"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://pentama.com/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">pentama</p>
+            <img
+              class="ImgOfWebSite"
+              loading="lazy"
+              src="https://pentama.com/wp-content/uploads/2018/11/cropped-logo-270x270.png"
+            />
+          </div>
+        </a>
+        <a target="_blank" href="https://www.abbreviationfinder.org/fa/">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">مخفف یاب</p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+        <a target="_blank" href="https://hamgam.medu.ir/portal/home.php">
+          <div class="WebSiteDiv">
+            <p class="WebSiteP">پورتال همگام</p>
+            <img class="ImgOfWebSite" loading="lazy" src="" />
+          </div>
+        </a>
+      </details>
+    </div>
+  </body>
+</html>
